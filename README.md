@@ -15,45 +15,55 @@ Before you can run the project, ensure that you have the following software inst
 
 You can check the installed versions by running the following commands in your terminal:
 
-```
 node -v
 yarn -v
-```
+
 
 ### Installation
 
 1. Clone the repository:
-```
 git clone https://github.com/username/nextjs-strapi-monolith.git
-```
+
+
 
 2. Change to the project directory:
-```
 cd nextjs-strapi-monolith
 yarn install
-```
+
+
 
 3. Install the dependencies for the frontend:
 
-```
 cd frontend/ecommerce/
 yarn install
-```
+
+
 
 4. Install the dependencies for the backend:
 
-```
 cd backend/strapi/
 yarn install
-```
+
+
+
+### Database Configuration
+
+Create a `.env` file in the `backend/strapi` directory and add your database configuration details. You can use the `.env.example` file as a template. Replace the placeholders with your actual database credentials.
+
+DATABASE_HOST=your_database_host
+DATABASE_PORT=your_database_port
+DATABASE_NAME=your_database_name
+DATABASE_USERNAME=your_database_username
+DATABASE_PASSWORD=your_database_password
+
 
 ### Running the Project
 
 From the root folder, to start the development server, run the following command in your terminal:
 
-```
 yarn dev
-```
+
+
 
 This will start the development server on a default port (e.g., http://localhost:3000). You can access the application in your web browser by navigating to the provided URL.
 
