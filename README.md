@@ -30,6 +30,7 @@ git clone https://github.com/username/nextjs-strapi-monolith.git
 2. Change to the project directory:
 ```
 cd nextjs-strapi-monolith
+yarn install
 ```
 
 3. Install the dependencies for the frontend:
