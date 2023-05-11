@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hellos",
+  "info": {
+    "singularName": "hello",
+    "pluralName": "hellos",
+    "displayName": "Hello",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "message": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
