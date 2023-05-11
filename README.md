@@ -49,7 +49,7 @@ yarn install
 
 ### database
 
-1. add env vars into a .env file as per .env.example:
+- add env vars into a .env file as per .env.example. The database.config file had been set up.
 
 ```
 # Database configuration (postgresql)
