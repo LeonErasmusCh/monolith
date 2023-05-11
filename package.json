@@ -2,8 +2,8 @@
     "name": "nextjs-strapi-monolith",
     "version": "1.0.0",
     "scripts": {
-      "frontend": "cd frontend/ecommerce && yarn dev",
       "backend": "cd backend/strapi && yarn strapi develop",
+      "frontend": "cd frontend/ecommerce && yarn dev",
       "dev": "concurrently --kill-others-on-fail \"yarn run frontend\" \"yarn run backend\""
     },
     "dependencies": {
