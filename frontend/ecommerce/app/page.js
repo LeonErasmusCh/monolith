@@ -10,7 +10,7 @@ async function getMessage() {
 
 export default async function Home() {
   const message = await getMessage();
-  console.log(message);
+
   return (
     <main style={{ textAlign: 'center', marginTop: '250px' }}>
       <p style={{ marginBottom: '35px' }}>fetch("http://localhost:1337/api/hellos?locale=all")</p>
