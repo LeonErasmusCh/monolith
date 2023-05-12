@@ -12,7 +12,7 @@ export default async function Home() {
   const message = await getMessage();
 
   return (
-    <main style={{ textAlign: 'center', marginTop: '250px' }}>
+    <main className={`${styles.main} text-center p-5`}>
       <p style={{ marginBottom: '35px' }}>fetch("http://localhost:1337/api/hellos?locale=all")</p>
       {message &&
         message.map((item) => {
